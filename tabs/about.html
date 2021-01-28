@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ <html lang="ru">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<link rel="stylesheet" href="../css/about.css">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>Обратная связь</title>
+
+ 	<!--Сервисы Peach Studio-->
+ 	<!--All rights reserved.-->
+ 	<script type="text/javascript" src="about-database.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="about-database.css">
+
+ </head>
+ <body onload="initDB()">
+ 	<ui class="ui">
+ 		<li class="li"><a href="evolution.html" class="a">Развитие</a></li>
+ 		<li class="li"><a href="programms.html" class="a">Программы</a></li>
+ 		<li class="li"><a href="../index.html" class="a">Главная</a></li>
+ 		<li class="li"><a href="technics.html" class="a">Техника</a></li>
+ 		<li class="li"><a href="about.html" class="a">Обратная связь</a></li>
+ 	</ui>
+
+ 	<div class="title">
+ 		<p><h1>Оставьте свой отзыв</h1></p>
+ 	</div>
+
+ 	<div id="database-peach-studio-block-1">
+ 		<input type="text" id="database-peach-studio-name-enter" placeholder="Введите свое Имя и Фамилию">
+ 		<input type="text" id='database-peach-studio-email-or-phone-enter' placeholder="Введите email или номер телефона">
+ 		<textarea id="database-peach-studio-message-enter" placeholder="Введите комментарий"></textarea>
+    <button onclick="send()" id="database-peach-studio-button-share">Отправить отзыв</button>
+ 		<ul id="database-peach-studio-list-comment">
+ 			<li hidden>Коментарии</li>
+ 		</ul>
+ 	</div>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBnCu7VV2SNc_kghr7yYMeKkb4gLBzY7lY",
+    authDomain: "jivopis-pst-db.firebaseapp.com",
+    databaseURL: "https://jivopis-pst-db-default-rtdb.firebaseio.com",
+    projectId: "jivopis-pst-db",
+    storageBucket: "jivopis-pst-db.appspot.com",
+    messagingSenderId: "998382712542",
+    appId: "1:998382712542:web:b4da607c99435355e0f44f"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var database = firebase.database();
+</script>
+ </body>
+ </html>  

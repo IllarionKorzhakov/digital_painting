@@ -1,0 +1,126 @@
+#database-peach-studio-block-1 {
+	position: fixed;
+	top: 200px;
+	width: 50%;
+	left: 25%;
+	right: 25%;
+	height: 72%;
+	bottom: 8%;
+	outline: none;
+}
+#database-peach-studio-name-enter {
+	position: 	absolute;	
+	top: 2%;
+	left: 10%;
+	right: 10%;
+	width: 80%;
+	height: 8%;
+	border: 0;
+	outline: 	none;
+	border-radius: 	10px;
+	background: #808B96;
+	color: white;
+	text-align: center;	
+
+}
+#database-peach-studio-email-or-phone-enter {
+	position: 	absolute;	
+	top: 12%;
+	left: 10%;
+	right: 10%;
+	width: 80%;
+	height: 8%;
+	border: 0;
+	outline: 	none;
+	border-radius: 	10px;
+	background: #808B96;
+	color: white;
+	text-align: center;
+}
+#database-peach-studio-message-enter {
+	position: 	absolute;	
+	top: 22%;
+	left: 10%;
+	right: 10%;
+	width: 80%;
+	height: 25%;
+	border: 0;
+	outline: 	none;
+	border-radius: 	10px;
+	background: #808B96;
+	color: white;
+	text-align: center;
+	resize: 	none;
+}
+#database-peach-studio-list-comment {
+	position: 	absolute;	
+	top: 57%;
+	bottom: 3%;
+	height: 40%;
+	left: 10%;
+	right: 10%;
+	width: 80%;		
+	padding: 	0;
+	margin: 0;
+	padding-top: 	10px;
+	border-radius: 	0px;
+	list-style: 	none;
+	overflow: 	auto;
+}
+#database-peach-studio-list-comment li {
+	left: 5%;
+	width: 90%;
+	position: 	relative;
+	margin: 0;
+	background: 	#99A3A4;	
+	border: 1px black;
+	border-radius: 5px;
+	padding: 15px 10px;
+	color: black;
+	height: auto;
+	min-height: 50px;
+	margin-bottom: 5px;
+}
+.database-name {
+	position: 	relative	;	
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	right: 0px;
+	font-weight: 900;
+	color:white;
+	font-size:19px;
+}
+.database-message {
+	position: 	absolute;	
+	top: 45px;
+	left: 10px;
+	overflow: 	auto;
+	width:100%;
+	right: 0px;
+}
+.database-data {
+	position: 	absolute;	
+	text-align: right;
+	top: 5px;
+	color:#283747;
+	font-weight: 550;
+	right: 10px;
+	width: 100%;
+}
+#database-peach-studio-button-share {
+	position: 	absolute;	
+	top: 49%;
+	width: 60%;
+	left: 20%;
+	right: 20%;
+	outline: 	none;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .1em;
+    color: black;
+    padding: 17px 24px 17px 39px;
+    cursor: pointer;
+
+}
